@@ -1,0 +1,40 @@
+
+> three-tier-todo@1.0.0 start
+> node server.js
+
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1908:16)
+    at listenInCluster (node:net:1965:12)
+    at Server.listen (node:net:2067:7)
+    at Function.listen (/root/three-tier-todo/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/root/three-tier-todo/server.js:113:5)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:173:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1944:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+
+Node.js v20.18.2
+
+> three-tier-todo@1.0.0 start
+> node server.js
+
+Server running at http://localhost:3000
+
+> three-tier-todo@1.0.0 start
+> node server.js
+
+Server running at http://localhost:3000

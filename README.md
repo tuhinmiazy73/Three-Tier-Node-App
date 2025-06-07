@@ -46,7 +46,7 @@
 ![image](https://github.com/user-attachments/assets/993c5609-7665-4de6-9a8e-c700f1bd5e07)
 
 =============================================
-Adding Vault
+Adding Vault with Jenkins
 =============================================
 
 ✅ 1. Store Secrets in Vault
